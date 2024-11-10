@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#container{
+    height: 450px;
+    width: 350px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+#container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#container i{
+    font-size: 75px;
+    color: #e1598d;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    transform: scale(0);
+    opacity: .8;
+    transition: all .5s ease;
+}
